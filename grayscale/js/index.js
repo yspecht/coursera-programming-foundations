@@ -6,6 +6,7 @@ function upload() {
   var canvas = document.getElementById("orig");
   image.drawTo(canvas);
 }
+
 function makeGray() {
   for (var pixel of image.values()) {
     var avg = (pixel.getRed()+pixel.getGreen()+pixel.getBlue())/3;

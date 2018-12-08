@@ -1,8 +1,54 @@
-#calm {background-color: #721d1d;}
-.explosion {background-color: black;}
-h1 {text-align: center; font-family: helvetica; font-size: 54pt; border: groove; border-color: #705353; padding-top: 25px; padding-bottom: 25px;}
-#d1 {text-align: center; font-family: helvetica; font-size: 28pt; margin-top: 100px; margin-bottom: 100px;}
-#d2 {text-align: center; font-family: helvetica; font-size: 28pt; margin-top: 50px; margin-bottom: 100px;}
-.button {margin: auto; display: block; width: 14%;}
-input {background-color: black; text-family: helvetica; color: #705353; padding: 15px 32px; font-size: 24pt; font-weight: 600; border: 2px solid #705353}
-input:hover {background-color:red; color:black;}
+#calm {
+    background-color: #721d1d;
+}
+
+.explosion {
+    background-color: black;
+}
+
+h1 {
+    text-align: center; 
+    font-family: helvetica; 
+    font-size: 54pt; 
+    border: groove; 
+    border-color: #705353; 
+    padding-top: 25px; 
+    padding-bottom: 25px;
+}
+
+#d1 {
+    text-align: center; 
+    font-family: helvetica; 
+    font-size: 28pt; 
+    margin-top: 100px; 
+    margin-bottom: 100px;
+}
+
+#d2 {
+    text-align: center; 
+    font-family: helvetica; 
+    font-size: 28pt; 
+    margin-top: 50px; 
+    margin-bottom: 100px;
+}
+
+.button {
+    margin: auto; 
+    display: block; 
+    width: 14%;
+}
+
+input {
+    background-color: black; 
+    font-family: helvetica; 
+    color: #705353; 
+    padding: 15px 32px; 
+    font-size: 24pt; 
+    font-weight: 600; 
+    border: 2px solid #705353
+}
+
+input:hover {
+    background-color:red; 
+    color:black;
+}

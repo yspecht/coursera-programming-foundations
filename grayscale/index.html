@@ -1,43 +1,21 @@
 <!DOCTYPE html>
-<html lang="en" >
-
-<head>
-  <meta charset="UTF-8">
-  <title>Convert to Grayscale</title>
-  
-  
-  
-      <link rel="stylesheet" href="css/style.css">
-
-  
-</head>
-
-<body>
-
-  <script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js" >
-</script>
-
-<h1> Convert to Grayscale </h1>
-
-<canvas id="orig">
-</canvas>
-<canvas id="gray">
-</canvas>
-
-<p>
-  <input type="file" multiple="false" accept="image/*" id="finput" onchange="upload()" >
-</p>
-<p>
-  <input type="button" value="Convert" onclick="makeGray()" >
-</p>
-  
-  
-
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Convert to Grayscale</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+    <h1> Convert to Grayscale </h1>
+    <canvas id="orig"></canvas>
+    <canvas id="gray"></canvas>
+    <p>
+      <input type="file" multiple="false" accept="image/*" id="finput" onchange="upload()">
+    </p>
+    <p>
+      <input type="button" value="Convert" onclick="makeGray()">
+    </p>
     <script  src="js/index.js"></script>
-
-
-
-
-</body>
-
+  </body>
 </html>

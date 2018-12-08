@@ -6,6 +6,7 @@ function upload() {
   var canvas = document.getElementById("orig");
   image.drawTo(canvas);
 }
+
 function makeGray() {
   for (var pixel of image.values()) {
     var avg = (pixel.getRed()+pixel.getGreen()+pixel.getBlue())/3;
@@ -16,6 +17,7 @@ function makeGray() {
   var canvas = document.getElementById("filter");
   image.drawTo(canvas);
 }
+
 function filterRed() {
   for (var pixel of image.values()) {
     var avg = (pixel.getRed()+pixel.getGreen()+pixel.getBlue())/3;
@@ -32,6 +34,7 @@ function filterRed() {
   var canvas = document.getElementById("filter");
   image.drawTo(canvas);
 }
+
 function rainbow() {
   var height = image.getHeight();
   for (var pixel of image.values()) {

@@ -9,12 +9,14 @@ function loadForegroundImage() {
   fgCanvas = document.getElementById("fgcan");
   fgImage.drawTo(fgCanvas);
 }
+
 function loadBackgroundImage() {
   var file = document.getElementById("bgfile");
   bgImage = new SimpleImage(file);
   bgCanvas = document.getElementById("bgcan");
   bgImage.drawTo(bgCanvas);
 }
+
 function createComposite() {
   var output = new SimpleImage(fgImage.getWidth(),fgImage.getHeight());
   var greenThreshold = 240;
@@ -31,6 +33,7 @@ function createComposite() {
   }
   return output;
 }
+
 function doGreenScreen() {
   if (fgImage == null  || ! fgImage.complete()) {
     alert("Foreground image not loaded");
@@ -42,10 +45,12 @@ function doGreenScreen() {
   var finalImage = createComposite();
   finalImage.drawTo(fgCanvas);
 }
+
 function clearCanvas() {
   doClear(fgCanvas);
   doClear(bgCanvas);
 }
+
 function doClear(canvas) {
   var context = canvas.getContext("2d");
   context.clearRect(0,0,canvas.width,canvas.height);

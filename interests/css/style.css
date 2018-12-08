@@ -1,8 +1,33 @@
-body {Background: url("https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"); color: #CCC2E2;}
+body {
+    background: url("https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"); 
+    color: #CCC2E2;
+}
 
-ol {text-align: center ; list-style-position: inside;}
-h1 {text-align: center; color: #CCC2E2;}
-#headerp {text-align: center; color: #CCC2E2;}
-div {text-align: center; color: #CCC2E2;}
-a {text-align: center; color: #CCC2E2}
-#meals {margin: auto} /* comment
+ol {
+    text-align: center; 
+    list-style-position: inside;
+}
+
+h1 {
+    text-align: center; 
+    color: #CCC2E2;
+}
+
+#headerp {
+    text-align: center;
+    color: #CCC2E2;
+}
+
+div {
+    text-align: center; 
+    color: #CCC2E2;
+}
+
+a {
+    text-align: center; 
+    color: #CCC2E2;
+}
+
+#meals {
+    margin: auto;
+}
