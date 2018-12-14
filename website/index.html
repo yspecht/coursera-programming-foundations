@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Website</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Yale Specht</title>
+    <link rel="stylesheet" type="text/css" href="flat.css">
+    <script src="jquery.min.js"></script>
+</head>
+<body>
+    <section class="title-card">
+        <!--<h1 class="title">micHaEl bAKer</h1>-->
+        <!--<h1 class="title">micHael bAKEr</h1>-->
+        <h1 class="title">yale specht</h1>
+        <h2 class="subtitle"><div id="quotebox"></div></h2>
+    </section>
+    <nav class="links">
+        <a href="/blog">Blog</a>
+        <a href="http://github.com/yspecht" target="_blank">Github</a>
+        <a href="mailto:yale.specht@gmail.com">Email</a>
+    </nav>
+    <footer>
+        <p>&copy;<span id="copyright">1963</span> Yale Specht<!--. (like anyone would want to steal this thing. it took like ten fucking minutes.)--></p>
+    </footer>
+    <script language="JavaScript">
+        var phrases = [
+            "supplies are limited",
+            "void where prohibited",
+            "may be subject to local, state and/or federal regulations",
+            "some restrictions may apply",
+            "<img src='/uca.gif'><span style='font-family: \"Times New Roman\";'>UNDER CONSTRUCTION</span><img src='/uca.gif'>",
+            "see your local hyundai dealer for details",
+            "<a href='http://www.youtube.com/watch?v=Uco5Ed-5y2U' target='_blank'>take it from me, i love you</a>",
+            "<b>not</b> a significant source of dietary potassium"
+        ];
+
+        var colors = [
+            "#1da9f9",
+            "#d14013",
+            "#e7be00",
+            "#70be00",
+            "#5b4bd4"
+        ];
+
+        $(function () {
+            var baseYear = Math.random() >= .15 ? 1948 : Math.floor(1580 + randint(700));
+            $('#copyright').text(randint(40) + baseYear);
+
+            cycle();
+        });
+
+        function cycle () {
+            $('#quotebox').html(phrases[randint(phrases.length)]);
+            $('body').css('background-color', colors[randint(colors.length)]);
+
+
+            setTimeout(cycle, 300000);
+        }
+
+        function randint (ceil) {
+            return Math.floor(Math.random() * ceil);
+        }
+    </script>
+</body>
+</html>
+  
+  
+
+</body>
+
+</html>
