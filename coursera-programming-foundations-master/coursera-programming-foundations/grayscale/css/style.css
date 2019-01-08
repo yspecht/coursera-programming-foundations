@@ -1,0 +1,18 @@
+h1 {
+  font-family: helvetica;
+  font-size: 30px;
+}
+
+canvas {
+  border: 1px solid #c3c3c3;
+  height: 200px;
+}
+
+body {
+  margin: 30px;
+  font-family: helvetica;
+}
+
+input {
+  font-size: 15px;
+}

@@ -1,0 +1,77 @@
+@font-face{
+  font-family:'Deibi';
+  src:url('/deibi.otf')
+}
+body{
+  background-color:dodgerblue;
+  font-family:"Deibi";
+  font-size:14pt;
+  font-weight:normal;
+  color:white;
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  transition:background-color .2s linear;
+  -webkit-transition:background-color .2s linear;
+  user-select:none;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none}
+h1,h2,h3{margin:0}a{color:inherit;
+  text-decoration:none
+}
+a:hover{
+  transition:all .1s linear;
+  -webkit-transition:all .1s linear;
+  opacity:1 !important
+}
+.title{
+  font-size:144pt;
+  line-height:88%;
+  opacity:.87;
+  color:white
+}
+.subtitle{
+  font-size:48pt;
+  margin-right:26%;
+  color:black;
+  font-weight:normal;
+  transition:all .2s linear;
+  -webkit-transition:all .2s linear
+}
+.subtitle #quotebox{
+  opacity:.6
+}
+.title-card{
+  position:absolute;
+  top:calc(45% - 115px);
+  left:0;
+  right:0;
+  bottom:0;
+  padding-left:100px
+}
+.links{
+  position:absolute;
+  left:100px;
+  top:24px;
+  font-size:24pt;
+  font-weight:bold
+}
+.links a{
+  text-decoration:none;
+  margin:auto 6pt;
+  opacity:.87
+}
+footer{
+  position:absolute;
+  bottom:4pt;
+  right:18pt;
+  font-size:12pt;
+  text-align:right
+}
+footer p{
+  margin:0;
+  margin-top:4pt
+}
